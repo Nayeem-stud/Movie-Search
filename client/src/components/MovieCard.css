@@ -1,0 +1,68 @@
+/* MovieCard.css */
+.movie {
+    background-color: #373b69; /* Card background color */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation for hover effects */
+    display: flex; /* Flex layout for better spacing */
+    flex-direction: column; /* Stack children vertically */
+  }
+  
+  .movie:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Deeper shadow on hover */
+  }
+  
+  .movie img {
+    border-radius: 10px; /* Rounded corners for the image */
+    margin-bottom: 10px; /* Add space below the image */
+  }
+  
+  .movie-info {
+    display: flex; /* Flex layout for title and rating */
+    justify-content: space-between; /* Space between title and rating */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .movie-title {
+    color: #FFD700; /* Gold for movie title */
+    margin: 0; /* Reset margin */
+    flex-grow: 1; /* Allow title to take available space */
+  }
+  
+  .rating {
+    font-weight: bold; /* Make rating bold */
+    padding: 5px;
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .green {
+    background-color: #28A745; /* Green for high ratings */
+    color: white;
+  }
+  
+  .orange {
+    background-color: #FFA500; /* Orange for medium ratings */
+    color: white;
+  }
+  
+  .red {
+    background-color: #DC3545; /* Red for low ratings */
+    color: white;
+  }
+  
+  .overview {
+    margin-top: 10px; /* Space between movie info and overview */
+  }
+  
+  .overview-title {
+    color: #0096c7; /* Gold for Overview title */
+    margin: 10px 0 5px; /* Margin for spacing */
+  }
+  
+  .overview-text {
+    color: #FFFFFF; /* White for overview text */
+  }
+  
