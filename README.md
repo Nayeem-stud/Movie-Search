@@ -9,6 +9,11 @@ A Movie Search App that allows users to search for movies and view details using
 - **Responsive Design**: The app is fully responsive and looks great on both mobile and desktop devices.
 - **Pagination**: Display search results with pagination for easy navigation.
 
+## Demo
+
+You can try the demo of the Movie-search at: [Demo Link](https://movie-search-nayeem.netlify.app/)
+
+
 ## Installation
 
 To get a local copy up and running, follow these steps:
@@ -23,4 +28,4 @@ To get a local copy up and running, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/username/movie-search-app.git
+   git clone https://github.com/Nayeem-stud/Movie-Search.git
